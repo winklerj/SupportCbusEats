@@ -13,5 +13,10 @@ Prototye results can be seen here:  http://13.59.132.88/SCE/
 2) Parse the "Delivery Options" column in source data to create indicator columns.  The column is currently a string all the selected choices (ie "Direct from Restaurant ,GrubHub,Uber Eats") if it's parsed into unique Y/N values we can add them as a fitler on the mapping portion.  
 3) Bug Fix - there's a return character getting added in the output file. I've backspaced over it for the sake of getting a prototype down but need to track that down and handle it.
 
+### App.R
+Changes here are pending whether this stays in R
+1) Move the interactive variables to the side panel for better rendering on mobile
+2) Add the delivery options indicator for sorting
+3) Include phone number and website links in the pop-up text boxes
 
 
